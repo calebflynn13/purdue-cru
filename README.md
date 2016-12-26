@@ -4,6 +4,7 @@
 
 Ensure that you have:
 - PHP >=5.6
+  - If you are on Mac OSX Sierra consider following these instructions for PHP with Apache https://getgrav.org/blog/macos-sierra-apache-mysql-vhost-apc
 - MySQL 5.6 (Try installing with Homebrew)
 - [WP CLI](https://wp-cli.org/)
 

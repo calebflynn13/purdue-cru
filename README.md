@@ -19,3 +19,7 @@ _Make sure that you have added the vhost and the development URL to your hosts f
 ### Configure WordPress
 - Copy the `env.sample` to `.env.php`
 - Fill our the `$local` information using the username/password that you created
+
+### Install WP
+Fill out this command with your information:
+`wp core install --url=purdue.dev --title="Purdue Cru" --admin_user=purdue --admin_password=admin --admin_email=you@whatever.com`

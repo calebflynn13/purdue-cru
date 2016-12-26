@@ -24,3 +24,7 @@ _Make sure that you have added the vhost and the development URL to your hosts f
 ### Install WP
 Fill out this command with your information:
 `wp core install --url=purdue.dev --title="Purdue Cru" --admin_user=purdue --admin_password=admin --admin_email=you@whatever.com`
+
+### Enable theme
+- Go to the Wordpress Admin page
+- Enable the `purdue-cru` theme

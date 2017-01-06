@@ -525,6 +525,20 @@ img#logo {
   margin: 10px 20px;
 }
 
+/*buttons for the navigation*/
+nav a, nav a:visited {
+  color: #666062;
+  padding: 3px 9px;
+  border-radius: 6px;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+nav a:hover {
+  background-color: #f9b625;
+  color:#FFFFFF;
+}
+
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
@@ -572,7 +586,6 @@ a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
-  margin: 3px 9px;
 }
 
 .main-navigation a {

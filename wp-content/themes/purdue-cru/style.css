@@ -512,7 +512,7 @@ header#masthead {
 
   /*experiment*/
   height:100vh;
-  background: url("/wp-content/themes/purdue-cru/images/fountain.png") #666062;
+  background: url("http://www.purduecru.com/wp-content/uploads/2017/01/fountain.jpg") #666062; 
   background-size: cover;
   background-position: center;
     position: relative;

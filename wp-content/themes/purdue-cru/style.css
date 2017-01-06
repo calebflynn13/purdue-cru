@@ -569,6 +569,7 @@ a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
+  margin: 0 9px;
 }
 
 .main-navigation a {

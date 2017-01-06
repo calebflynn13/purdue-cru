@@ -502,6 +502,26 @@ textarea {
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
+header {
+  width:100%;
+}
+
+.header-wrapper {
+  width:1000px;
+  margin:0 auto;
+}
+
+.site-branding {
+  width:180px;
+  display:inline;
+}
+
+img#logo {
+  dispay:inline;
+  width: 180px;
+  height: 180px;
+}
+
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
@@ -533,13 +553,14 @@ a:active {
 --------------------------------------------------------------*/
 .main-navigation {
 	clear: both;
-	display: block;
-	float: left;
-	width: 100%;
+	display: inline;
+	position: relative;
+  top: 130px;
+  float: right;
 }
 
 .main-navigation ul {
-	display: none;
+	display: block;
 	list-style: none;
 	margin: 0;
 	padding-left: 0;

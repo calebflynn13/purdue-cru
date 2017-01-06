@@ -27,7 +27,7 @@
     <div class="header-wrapper">
       <div class="site-branding">
         <a href="http://www.purduecru.com/">
-          <img src="wp-content/themes/purdue-cru/images/logo.jpg" id="logo">
+          <img src="wp-content/themes/purdue-cru/images/logo.png" id="logo">
         </a>
       </div><!-- .site-branding -->
 

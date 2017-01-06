@@ -518,8 +518,8 @@ header {
 
 img#logo {
   dispay:inline;
-  width: 180px;
-  height: 180px;
+  height: 100px;
+  width: auto;
 }
 
 /*--------------------------------------------------------------
@@ -555,7 +555,7 @@ a:active {
 	clear: both;
 	display: inline;
 	position: relative;
-  top: 130px;
+  top: 50px;
   float: right;
 }
 

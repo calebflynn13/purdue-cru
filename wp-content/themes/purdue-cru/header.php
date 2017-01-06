@@ -27,7 +27,7 @@
     <div class="header-wrapper">
       <div class="site-branding">
         <a href="http://www.purduecru.com/">
-          <img src="wp-content/themes/purdue-cru/images/logo.png" id="logo">
+          <img src="wp-content/themes/purdue-cru/images/logo_white.png" id="logo">
         </a>
       </div><!-- .site-branding -->
 
@@ -35,6 +35,7 @@
         <?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
       </nav><!-- #site-navigation -->
     </div><!--header-wrapper-->
-	</header><!-- #masthead -->
+  </header><!-- #masthead -->
+  <div id="fountain-image"></div>
 
 	<div id="content" class="site-content">

@@ -505,7 +505,22 @@ textarea {
 --------------------------------------------------------------*/
 header#masthead {
   width:100%;
-  box-shadow: 1px 3px 7px grey;
+  /*box-shadow: 1px 3px 7px grey;*/
+}
+
+#fountain-image {
+
+  /*experiment*/
+  height:100vh;
+  background: url("/wp-content/themes/purdue-cru/images/fountain.png") #666062;
+  background-size: cover;
+  background-position: center;
+    position: relative;
+    top: -127px;
+    left: 0;
+    z-index: -1;
+    filter: blur(0px) brightness(67%) contrast(67%);
+
 }
 
 .header-wrapper {
@@ -527,7 +542,7 @@ img#logo {
 
 /*buttons for the navigation*/
 nav a, nav a:visited {
-  color: #666062;
+  color: #FFFFFF;
   padding: 3px 9px;
   border-radius: 6px;
   -webkit-transition: all .1s linear;
@@ -541,7 +556,7 @@ nav a:hover {
 
 /*submenus*/
 .sub-menu {
-  background-color:#FFFFFF;
+  background-color:#666062;
   border-radius: 6px;
 }
 

@@ -502,8 +502,9 @@ textarea {
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
-header {
+header#masthead {
   width:100%;
+  box-shadow: 1px 3px 7px grey;
 }
 
 .header-wrapper {
@@ -570,7 +571,7 @@ a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
-  margin: 0 9px;
+  margin: 3px 9px;
 }
 
 .main-navigation a {

@@ -41,6 +41,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Media
 	## Captions
 	## Galleries
+# Media Queries
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -917,3 +918,15 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+/*--------------------------------------------------------------
+ * # Media Queries
+ * --------------------------------------------------------------*/
+@media screen and (max-width: 1000px) {
+  /*take care of the header*/
+  .header-wrapper {
+    width:100%;
+  }
+}
+
+

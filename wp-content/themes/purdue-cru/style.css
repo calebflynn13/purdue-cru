@@ -539,6 +539,12 @@ nav a:hover {
   color:#FFFFFF;
 }
 
+/*submenus*/
+.sub-menu {
+  background-color:#FFFFFF;
+  border-radius: 6px;
+}
+
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
@@ -597,7 +603,7 @@ a:active {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 	float: left;
 	position: absolute;
-	top: 1.5em;
+	top: 1.9em;
 	left: -999em;
 	z-index: 99999;
 }
@@ -942,4 +948,6 @@ object {
   }
 }
 
-
+@media screen and (max-width: 810px) {
+  /*logo and menu collide. time to take take out the menu hamburger*/
+}

@@ -13,11 +13,11 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'purdue-cru' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'purdue-cru' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'purdue-cru' ), 'purdue-cru', '<a href="https://automattic.com/" rel="designer">Underscores.me</a>' ); ?>
+	<footer id="main-footer" class="site-footer" role="contentinfo">
+    <div class="footer-wrapper">
+      <a href="http://www.purduecru.com/">
+        <img src="http://www.purduecru.com/wp-content/uploads/2017/01/logo_white.png" class="logo">
+      </a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

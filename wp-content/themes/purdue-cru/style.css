@@ -37,6 +37,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Content
 	## Posts and pages
 	## Comments
+# Footer
 # Infinite scroll
 # Media
 	## Captions
@@ -535,8 +536,8 @@ header#masthead {
   display:inline;
 }
 
-img#logo {
-  dispay:inline;
+img.logo {
+  display:inline;
   height: 100px;
   width: auto;
   margin: 10px 20px;
@@ -811,7 +812,7 @@ a:active {
 div#primary {
     width: 1000px;
     margin: 0 auto;
-}
+    }
 
 
 /*--------------------------------------------------------------
@@ -855,6 +856,19 @@ div#primary {
 
 .bypostauthor {
 	display: block;
+}
+
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+footer#main-footer{
+  background-color: #666062;
+}
+
+.footer-wrapper {
+    width: 1000px;
+    margin: 0 auto;
 }
 
 /*--------------------------------------------------------------

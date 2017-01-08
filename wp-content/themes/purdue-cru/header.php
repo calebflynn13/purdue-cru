@@ -38,4 +38,3 @@
   </header><!-- #masthead -->
   <div id="fountain-image"></div>
 
-	<div id="content" class="site-content">

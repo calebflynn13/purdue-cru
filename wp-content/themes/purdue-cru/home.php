@@ -1,11 +1,8 @@
 <?php
 /**
- * The template for displaying all pages
+ * The template for displaying the home page
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
- * different template.
+ * This is the template that displays the home page.
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
@@ -13,7 +10,6 @@
  */
 
 get_header(); ?>
-  
 <div id="content" class="site-content">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">

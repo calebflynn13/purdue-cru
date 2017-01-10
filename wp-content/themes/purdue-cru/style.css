@@ -545,7 +545,7 @@ img.logo {
 
 /*buttons for the navigation*/
 nav a, nav a:visited {
-  color: #FFFFFF;
+  color: #666062;
   padding: 3px 9px;
   border-radius: 6px;
   -webkit-transition: all .1s linear;
@@ -557,10 +557,24 @@ nav a:hover {
   color:#FFFFFF;
 }
 
+
 /*submenus*/
 .sub-menu {
   background-color:#666062;
   border-radius: 6px;
+}
+
+nav .sub-menu a, nav .submenu a:visited {
+  color: #FFFFFF;
+}
+
+/*##### take care of front-page ######*/
+header.front nav a, header.front nav a:visited {
+  color: #FFFFFF;
+}
+
+header#masthead {
+  height: 100vh;
 }
 
 /*--------------------------------------------------------------

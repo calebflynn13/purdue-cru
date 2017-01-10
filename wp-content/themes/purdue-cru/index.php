@@ -16,9 +16,13 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+    
+    <?php 
+      if(is_front_page()): ?>
+      <?php include 'front-page.php';?>
 
 		<?php
-		if ( have_posts() ) :
+		elseif ( have_posts() ) :
 
 			if ( is_home() && ! is_front_page() ) : ?>
 				<header>
@@ -52,5 +56,4 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();

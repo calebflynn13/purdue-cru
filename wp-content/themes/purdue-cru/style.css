@@ -506,8 +506,7 @@ textarea {
 --------------------------------------------------------------*/
 header#masthead {
   width:100%;
-  height: 100vh;
-  /*box-shadow: 1px 3px 7px grey;*/
+  box-shadow: 1px 3px 7px grey;
 }
 
 #fountain-image {
@@ -573,8 +572,9 @@ header.front nav a, header.front nav a:visited {
   color: #FFFFFF;
 }
 
-header#masthead {
+header.front#masthead {
   height: 100vh;
+  box-shadow: none;
 }
 
 /*--------------------------------------------------------------

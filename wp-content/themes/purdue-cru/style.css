@@ -994,12 +994,16 @@ object {
  * # Media Queries
  * --------------------------------------------------------------*/
 @media screen and (max-width: 1000px) {
+  /*no longer at the fixed width of 1000px for content*/
+
   /*take care of the header*/
   .header-wrapper {
     width:100%;
   }
+  /*TODO: take care of page content*/
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 820px) {
   /*logo and menu collide. time to take take out the menu hamburger*/
+
 }

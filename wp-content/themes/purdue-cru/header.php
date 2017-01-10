@@ -36,7 +36,7 @@
             <img src="http://www.purduecru.com/wp-content/uploads/2017/01/logo_white.png" class="logo">
           <?php
             else: ?>
-            <img src="http://www.purduecru.com/wp-content/uploads/2015/09/null-4.jpg" class="logo">
+            <img src="http://www.purduecru.com/wp-content/uploads/2017/01/logo_dark.png" class="logo">
           <?php endif; ?>
         </a>
       </div><!-- .site-branding -->

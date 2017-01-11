@@ -353,7 +353,7 @@ html {
 }
 
 body {
-	background: #666062; /* Fallback for when there is no custom background color defined. */
+	background: #fff; /* Fallback for when there is no custom background color defined. */
 }
 
 blockquote:before,
@@ -826,12 +826,26 @@ a:active {
 div#primary {
     width: 1000px;
     margin: 0 auto;
-    }
+    background: white;
+    padding: 0 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px grey;
+}
 
+div#content {
+    background-color: #EEEEEE;
+    position: relative;
+    z-index: -1;
+}
 
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
+
+.entry-title {
+  border-bottom: 2px solid #f9b625;
+}
+
 .sticky {
 	display: block;
 }
@@ -998,12 +1012,29 @@ object {
 
   /*take care of the header*/
   .header-wrapper {
-    width:100%;
+    width: 100%;
   }
+
   /*TODO: take care of page content*/
+  div#primary {
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .hentry {
+    margin:0;
+  }
+
+
 }
 
 @media screen and (max-width: 820px) {
   /*logo and menu collide. time to take take out the menu hamburger*/
+  body {
+    position: relative;
+    /*left: -260px;*/
+  }
 
 }

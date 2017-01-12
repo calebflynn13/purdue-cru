@@ -303,7 +303,7 @@ address {
 }
 
 pre {
-	background: #eee;
+	background: #FFFFFF;
 	font-family: "Courier 10 Pitch", Courier, monospace;
 	font-size: 15px;
 	font-size: 0.9375rem;
@@ -512,16 +512,17 @@ header#masthead {
 #fountain-image {
 
   /*experiment*/
-  height:100vh;
-  width:100%;
-  background: url("http://www.purduecru.com/wp-content/uploads/2017/01/fountain.jpg") #666062; 
+  height: 100vh;
+  min-height: 520px;
+  width: 100%;
+  background: url("http://www.purduecru.com/wp-content/uploads/2017/01/fountain_dark.jpg") #666062; 
   background-size: cover;
   background-position: center;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  filter: blur(0px) brightness(67%) contrast(67%);
+  /*filter: blur(0px) brightness(67%) contrast(67%);*/
 
 }
 
@@ -836,6 +837,36 @@ div#content {
     background-color: #EEEEEE;
     position: relative;
     z-index: -1;
+}
+
+/*boxes on front page*/
+
+div#box-container {
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.boxes {
+  height: 300px;
+  width: 33%;
+  display: inline-block;
+  color: #FFFFFF;
+}
+
+.boxes p {
+    text-align: center;
+    color: white;
+}
+.boxes img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
 }
 
 /*--------------------------------------------------------------

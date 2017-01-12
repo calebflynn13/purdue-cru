@@ -13,7 +13,7 @@ get_header(); ?>
 <div id="fountain-image">
   <div id="box-container">
     <div class="boxes" id="box1">
-      <img>
+      <img src="http://www.purduecru.com/wp-content/uploads/2017/01/thursday-night-cru.png">
       <p>box1</p>
     </div>
     <div class="boxes" id="box2">
@@ -23,7 +23,7 @@ get_header(); ?>
       </a>
     </div>
     <div class="boxes" id="box3">
-      <img>
+      <img src="http://www.purduecru.com/wp-content/uploads/2017/01/thursday-night-cru.png">
       <p>box2</p>
     </div>
   </div>

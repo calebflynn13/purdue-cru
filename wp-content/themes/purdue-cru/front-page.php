@@ -10,7 +10,8 @@
  */
 
 get_header(); ?>
-<div id="fountain-image">
+<div id="fountain-image"></div>
+<div id="featured-content">
   <div id="box-container">
     <div class="boxes" id="box1">
       <img src="http://www.purduecru.com/wp-content/uploads/2017/01/thursday-night-cru.png">

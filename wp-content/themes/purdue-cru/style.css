@@ -517,7 +517,7 @@ header#masthead {
 }
 
 #featured-content {
-    z-index:1;
+    z-index:0;
 }
 
 #fountain-image, #featured-content {
@@ -579,8 +579,10 @@ header.front nav a, header.front nav a:visited {
 }
 
 header.front#masthead {
+    position: relative;
     height: 100vh;
     box-shadow: none;
+    z-index: 1;
 }
 
 /*--------------------------------------------------------------

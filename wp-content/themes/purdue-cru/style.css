@@ -527,7 +527,6 @@ header#masthead {
   position: absolute;
   top: 0;
   left: 0;
- 
   /*filter: blur(0px) brightness(67%) contrast(67%);*/
 
 }
@@ -869,6 +868,17 @@ div#box-container {
     text-align: center;
     color: white;
 }
+
+.boxes a {
+    text-decoration:none;
+    color:white;
+
+}
+
+.boxes a:hover p{
+    text-decoration:underline;
+}
+
 .boxes img {
     display: block;
     margin: 0 auto;

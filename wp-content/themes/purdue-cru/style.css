@@ -507,6 +507,8 @@ textarea {
 header#masthead {
     width:100%;
     box-shadow: 1px 3px 7px grey;
+    position: relative;
+    z-index: 3;
 }
 
 #fountain-image {
@@ -559,7 +561,14 @@ nav a, nav a:visited {
 
 nav a:hover {
     background-color: #f9b625;
-    color:#FFFFFF;
+    color: #FFFFFF;
+}
+
+.current-menu-item > a, .current-menu-parent > a:first-child,
+.current-menu-item > a:hover, .current-menu-parent > a:hover
+{
+    background-color: #3eb1c8;
+    color:#FFFFFF!important;
 }
 
 
@@ -833,7 +842,7 @@ a:active {
 
 div#primary {
     width: 1000px;
-    margin: 0 auto;
+    margin: 20px auto;
     background: white;
     padding: 0 10px;
     border-radius: 10px;
@@ -843,7 +852,7 @@ div#primary {
 div#content {
     background-color: #EEEEEE;
     position: relative;
-    z-index: -1;
+    z-index: 1;
 }
 
 /*boxes on front page*/
@@ -868,6 +877,8 @@ div#box-container {
 
 .boxes p {
     text-align: center;
+    font-size: 19px;
+    margin-top: 5px;
     color: white;
 }
 
@@ -892,7 +903,8 @@ div#box-container {
 --------------------------------------------------------------*/
 
 .entry-title {
-  border-bottom: 2px solid #f9b625;
+    border-bottom: 2px solid #f9b625;
+    
 }
 
 .sticky {

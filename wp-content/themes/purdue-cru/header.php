@@ -44,6 +44,30 @@
             <?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
         </nav><!-- #site-navigation -->
     </div><!--header-wrapper-->
+    <?php if(is_front_page()): ?>
+    <div id="featured-content">
+        <div id="box-container">
+            <div class="boxes" id="box1">
+                <a href="#">
+                    <img src="http://www.purduecru.com/wp-content/uploads/2017/01/thursday-night-cru.png">
+                    <p>box1</p>
+                </a>
+            </div>
+            <div class="boxes" id="box2">
+                <a href="http://www.purduecru.com/thursday-night-cru/">
+                    <img src="http://www.purduecru.com/wp-content/uploads/2017/01/thursday-night-cru.png">
+                    <p>Come to our weekly meeting</p>
+                </a>
+            </div>
+            <div class="boxes" id="box3">
+                <a href="#">
+                    <img src="http://www.purduecru.com/wp-content/uploads/2017/01/thursday-night-cru.png">
+                    <p>box2</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <?php endif; ?>
   </header><!-- #masthead -->
 
 

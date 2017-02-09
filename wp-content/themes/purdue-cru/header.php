@@ -42,7 +42,7 @@
                 <div class="boxes" id="box3">
                     <a href="#">
                         <img src="http://www.purduecru.com/wp-content/uploads/2017/01/thursday-night-cru.png">
-                        <p>box2</p>
+                        <p>Find a small group</p>
                     </a>
                 </div>
             </div>

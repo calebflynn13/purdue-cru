@@ -869,7 +869,7 @@ div#box-container {
 
 .boxes {
   height: 300px;
-  width: 33%;
+  width: 32%;
   display: inline-block;
   color: #FFFFFF;
 }
@@ -1068,33 +1068,59 @@ object {
  * # Media Queries
  * --------------------------------------------------------------*/
 @media screen and (max-width: 1000px) {
-  /*no longer at the fixed width of 1000px for content*/
+    /*no longer at the fixed width of 1000px for content*/
 
-  /*take care of the header*/
-  .header-wrapper {
-    width: 100%;
-  }
+    /*take care of the header*/
+    .header-wrapper {
+        width: 100%;
+    }
+    
+    /*fix the boxes*/
+    div#box-container {
+        width:100%;
+    }
 
-  /*TODO: take care of page content*/
-  div#primary {
-    width: 100%;
-    padding: 0 10px;
-    border-radius: 0;
-    box-shadow: none;
-  }
 
-  .hentry {
-    margin:0;
-  }
+    /*TODO: take care of page content*/
+    div#primary {
+        width: 100%;
+        padding: 0 10px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .hentry {
+        margin:0;
+    }
 
 
 }
 
 @media screen and (max-width: 820px) {
     /*logo and menu collide.*/
+    /*might not be useful*/
     body {
         position: relative;
         /*left: -260px;*/
+    }
+
+    /*stack the boxes*/
+    div#box-container {
+        height: auto;
+        top: inherit;
+        right: inherit;
+        bottom: inherit;
+        left: inherit;
+        margin-top: 127px;
+    }
+    .boxes {
+        display: block;
+        margin: 0 auto;
+        width: 340px;
+    }
+    #fountain-image, #featured-content, header.front#masthead{
+        min-height: 1050px;
+
     }
 }
 

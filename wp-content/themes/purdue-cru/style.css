@@ -564,9 +564,8 @@ nav a:hover {
     color: #FFFFFF;
 }
 
-.current-menu-item > a, .current-menu-parent > a:first-child,
-.current-menu-item > a:hover, .current-menu-parent > a:hover
-{
+.current-menu-item > a, .current-menu-parent > a,
+.current-menu-item > a:hover, .current-menu-parent > a:hover {
     background-color: #3eb1c8;
     color:#FFFFFF!important;
 }

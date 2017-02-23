@@ -29,22 +29,23 @@
             <div id="box-container">
                 <div class="boxes" id="box1">
                     <a href="#">
-                        <img src="http://www.purduecru.com/wp-content/uploads/2017/01/thursday-night-cru.png">
-                        <p>box1</p>
+                        <img src="/wp-content/themes/purdue-cru/images/small_groups.png">
+                        <p>Find a small group</p>
                     </a>
                 </div>
                 <div class="boxes" id="box2">
-                    <a href="http://www.purduecru.com/thursday-night-cru/">
+                    <a href="#">
                         <img src="http://www.purduecru.com/wp-content/uploads/2017/01/thursday-night-cru.png">
                         <p>Come to our weekly meeting</p>
                     </a>
                 </div>
                 <div class="boxes" id="box3">
-                    <a href="#">
-                        <img src="/wp-content/themes/purdue-cru/images/small_groups.png">
-                        <p>Find a small group</p>
+                    <a href="http://www.purduecru.com/thursday-night-cru/">
+                        <img src="http://www.purduecru.com/wp-content/uploads/2017/01/thursday-night-cru.png">
+                        <p>Follow Us</p>
                     </a>
                 </div>
+                
             </div>
         </div>
     <?php else: ?>

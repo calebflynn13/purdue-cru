@@ -894,6 +894,7 @@ div#box-container {
 .boxes img {
     display: block;
     margin: 0 auto;
+    padding: 20px;
     width: 80%;
 }
 

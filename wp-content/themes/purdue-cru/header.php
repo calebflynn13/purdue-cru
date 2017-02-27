@@ -36,7 +36,7 @@
                 <div class="boxes" id="box2">
                     <a href="#">
                         <img src="/wp-content/themes/purdue-cru/images/thursday-night-cru.png">
-                        <p>Come to our weekly meeting</p>
+                        <p>Check out our weekly meeting</p>
                     </a>
                 </div>
                 <div class="boxes" id="box3">

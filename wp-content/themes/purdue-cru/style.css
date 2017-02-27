@@ -18,7 +18,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
-*/
+ */
 
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
@@ -28,20 +28,20 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Elements
 # Forms
 # Navigation
-    ## Links
-    ## Menus
+## Links
+## Menus
 # Accessibility
 # Alignments
 # Clearings
 # Widgets
 # Content
-    ## Posts and pages
-    ## Comments
+## Posts and pages
+## Comments
 # Footer
 # Infinite scroll
 # Media
-    ## Captions
-    ## Galleries
+## Captions
+## Galleries
 # Media Queries
 --------------------------------------------------------------*/
 
@@ -347,78 +347,78 @@ html {
 }
 
 *,
-*:before,
-*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-    box-sizing: inherit;
-}
+    *:before,
+    *:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+        box-sizing: inherit;
+    }
 
-body {
-    background: #fff; /* Fallback for when there is no custom background color defined. */
-}
+    body {
+        background: #fff; /* Fallback for when there is no custom background color defined. */
+    }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: "";
-}
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: "";
+    }
 
-blockquote,
-q {
-    quotes: "" "";
-}
+    blockquote,
+    q {
+        quotes: "" "";
+    }
 
-hr {
-    background-color: #ccc;
-    border: 0;
-    height: 1px;
-    margin-bottom: 1.5em;
-}
+    hr {
+        background-color: #ccc;
+        border: 0;
+        height: 1px;
+        margin-bottom: 1.5em;
+    }
 
-ul,
-ol {
-    margin: 0 0 1.5em 3em;
-}
+    ul,
+    ol {
+        margin: 0 0 1.5em 3em;
+    }
 
-ul {
-    list-style: disc;
-}
+    ul {
+        list-style: disc;
+    }
 
-ol {
-    list-style: decimal;
-}
+    ol {
+        list-style: decimal;
+    }
 
-li > ul,
-li > ol {
-    margin-bottom: 0;
-    margin-left: 1.5em;
-}
+    li > ul,
+    li > ol {
+        margin-bottom: 0;
+        margin-left: 1.5em;
+    }
 
-dt {
-    font-weight: bold;
-}
+    dt {
+        font-weight: bold;
+    }
 
-dd {
-    margin: 0 1.5em 1.5em;
-}
+    dd {
+        margin: 0 1.5em 1.5em;
+    }
 
-img {
-    height: auto; /* Make sure images are scaled correctly. */
-    max-width: 100%; /* Adhere to container width. */
-}
+    img {
+        height: auto; /* Make sure images are scaled correctly. */
+        max-width: 100%; /* Adhere to container width. */
+    }
 
-figure {
-    margin: 1em 0; /* Extra wide images within figure tags don't overflow the content area. */
-}
+    figure {
+        margin: 1em 0; /* Extra wide images within figure tags don't overflow the content area. */
+    }
 
-table {
-    margin: 0 0 1.5em;
-    width: 100%;
-}
+    table {
+        margin: 0 0 1.5em;
+        width: 100%;
+    }
 
-/*--------------------------------------------------------------
-# Forms
---------------------------------------------------------------*/
+    /*--------------------------------------------------------------
+    # Forms
+    --------------------------------------------------------------*/
 button,
 input[type="button"],
 input[type="reset"],
@@ -854,24 +854,30 @@ div#content {
     z-index: 1;
 }
 
+/*front-pae content*/
+#front-primary {
+    width:1000px;
+    margin: 0 auto;
+}
+
 /*boxes on front page*/
 
 div#box-container {
-  position: absolute;
-  width: 1000px;
-  height: 300px;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
 
 .boxes {
-  height: 300px;
-  width: 32%;
-  display: inline-block;
-  color: #FFFFFF;
+    height: 300px;
+    width: 32%;
+    display: inline-block;
+    color: #FFFFFF;
 }
 
 .boxes p {
@@ -904,7 +910,7 @@ div#box-container {
 
 .entry-title {
     border-bottom: 2px solid #f9b625;
-    
+
 }
 
 .sticky {
@@ -952,7 +958,7 @@ div#box-container {
 ## Footer
 --------------------------------------------------------------*/
 footer#main-footer{
-  background-color: #666062;
+    background-color: #666062;
 }
 
 .footer-wrapper {
@@ -1075,7 +1081,7 @@ object {
     .header-wrapper {
         width: 100%;
     }
-    
+
     /*fix the boxes*/
     div#box-container {
         width:100%;

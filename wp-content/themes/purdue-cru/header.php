@@ -41,8 +41,8 @@
                 </div>
                 <div class="boxes" id="box3">
                     <a href="http://www.purduecru.com/thursday-night-cru/">
-                        <img src="/wp-content/themes/purdue-cru/images/thursday-night-cru.png">
-                        <p>Follow Us</p>
+                        <img src="/wp-content/themes/purdue-cru/images/calendar.png">
+                        <p>Events</p>
                     </a>
                 </div>
                 

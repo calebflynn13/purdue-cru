@@ -1193,12 +1193,17 @@ object {
         transform: translate(0,-11px) rotate(-45deg);
     }
 
+    body.shifted .main-navigation {
+        display: block;
+    }
+
     /*move navigation to the right of the screen*/
     .main-navigation {
         position: absolute;
         top:0;
         left:100%;
         width:300px;
+        display: none;
     }
 
     .main-navigation li {

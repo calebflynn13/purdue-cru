@@ -1176,7 +1176,7 @@ object {
 
     /*these are for when button has been pressed*/
     body.shifted {
-        left: -260px;
+        left: -300px;
     }
 
     body.shifted .hamburger #bar1 {
@@ -1196,11 +1196,17 @@ object {
         position: absolute;
         top:0;
         left:100%;
-        width:260px;
+        width:300px;
     }
 
     .main-navigation li {
         width: 100%;
+    }
+
+    /*menu formatting*/
+    nav a, nav a:visited {
+        color: #FFFFFF;
+        font-size: 18px;
     }
 
     /*submenus*/
@@ -1209,6 +1215,10 @@ object {
         position: static;
         box-shadow: none;
         padding-left: 20px;
+    }
+
+    .main-navigation ul ul a {
+        width: 100%;
     }
 
     nav .sub-menu a, nav .submenu a:visited {

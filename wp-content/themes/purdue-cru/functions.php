@@ -107,8 +107,6 @@ add_action( 'widgets_init', 'purdue_cru_widgets_init' );
 function purdue_cru_scripts() {
 	wp_enqueue_style( 'purdue-cru-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'purdue-cru-navigation', get_template_directory_uri() . '/js/priority-nav.js', array(), '20151215', true );
-
 	wp_enqueue_script( 'purdue-cru-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

@@ -63,9 +63,6 @@
                 <?php endif; ?>
             </a>
         </div><!-- .site-branding -->
-        <nav id="site-navigation" class="main-navigation" >
-            <?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
-        </nav><!-- #site-navigation -->
         <a href="#">
             <div class="hamburger">
                 <div id="bar1"></div>
@@ -73,6 +70,9 @@
                 <div id="bar3"></div>
             </div>
         </a>
+        <nav id="site-navigation" class="main-navigation" >
+            <?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
+        </nav><!-- #site-navigation -->
     </div><!--header-wrapper-->
   </header><!-- #masthead -->
 

@@ -354,6 +354,7 @@ html {
 
     body {
         background: rgb(98,96,98); /* Fallback for when there is no custom background color defined. */
+        position: relative;
     }
 
     blockquote:before,
@@ -536,11 +537,16 @@ textarea {
 }
 /*end hamburger menu*/
 
-header#masthead {
+header.site-header {
+    background-color: white; /*set other pages to white background*/
     width:100%;
     box-shadow: 1px 3px 7px grey;
     position: relative;
     z-index: 3;
+}
+
+header.front.site-header {
+    background-color: inherit; /*keeps front page w/ image background*/
 }
 
 #fountain-image {
@@ -1149,13 +1155,70 @@ object {
 
 /*logo and menu collide.*/
 @media screen and (max-width: 838px) {
+    /*TODO: FOR TESTING ONLY*/
+    body {
+        left: -260px;
+    }
+
+
     /*show hamburger menu icon*/
     .hamburger {
         display: block;
     }
 
-    /*move menu items to the right of the screen*/
-    
+    /*move menu navigation to the right of the screen*/
+    .main-navigation {
+        position: absolute;
+        top:0;
+        left:100%;
+        width:260px;
+    }
+
+    .main-navigation li {
+        width: 100%;
+    }
+    nav a, nav a:visited {
+        color: #666062;
+        padding: 3px 9px;
+        border-radius: 6px;
+        -webkit-transition: all .1s linear;
+        transition: all .1s linear;
+    }
+
+    nav a:hover {
+        background-color: #f9b625;
+        color: #FFFFFF;
+    }
+
+    .current-menu-item > a, .current-menu-parent > a,
+    .current-menu-item > a:hover, .current-menu-parent > a:hover {
+        background-color: #3eb1c8;
+        color:#FFFFFF!important;
+    }
+
+
+    /*submenus*/
+    .sub-menu {
+        background-color:#666062;
+        border-radius: 6px;
+    }
+
+    nav .sub-menu a, nav .submenu a:visited {
+        color: #FFFFFF;
+    }
+
+    /*##### take care of front-page ######*/
+    header.front nav a, header.front nav a:visited {
+        color: #FFFFFF;
+    }
+
+    header.front#masthead {
+        position: relative;
+        height: 100vh;
+        box-shadow: none;
+        z-index: 1;
+    }
+    /*end shifting the navigation*/
 
     /*stack the boxes*/
     div#box-container {

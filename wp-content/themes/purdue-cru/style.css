@@ -571,7 +571,7 @@ header.front.site-header {
 }
 
 #featured-content {
-    z-index:0;
+    z-index:-1;
 }
 
 #fountain-image, #featured-content {
@@ -898,6 +898,7 @@ div#primary {
     padding: 0 10px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px grey;
+    padding:0 20px;
 }
 
 div#content {
@@ -967,6 +968,7 @@ div#box-container {
 
 .entry-title {
     border-bottom: 2px solid #f9b625;
+    margin:0;
 
 }
 

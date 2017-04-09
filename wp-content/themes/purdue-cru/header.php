@@ -28,19 +28,19 @@
         <div id="featured-content">
             <div id="box-container">
                 <div class="boxes" id="box1">
-                    <a href="#">
+                    <a href="http://www.purduecru.com/find-a-small-group/">
                         <img src="/wp-content/themes/purdue-cru/images/small_groups.png">
                         <p>Find a small group</p>
                     </a>
                 </div>
                 <div class="boxes" id="box2">
-                    <a href="#">
+                    <a href="http://www.purduecru.com/thursday-night-cru/">
                         <img src="/wp-content/themes/purdue-cru/images/thursday-night-cru.png">
                         <p>Check out our weekly meeting</p>
                     </a>
                 </div>
                 <div class="boxes" id="box3">
-                    <a href="http://www.purduecru.com/thursday-night-cru/">
+                    <a href="http://www.purduecru.com/events">
                         <img src="/wp-content/themes/purdue-cru/images/calendar.png">
                         <p>Events</p>
                     </a>

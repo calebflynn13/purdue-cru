@@ -523,7 +523,7 @@ textarea {
     width:35px;
     height: 4px;
     position:relative;
-    background-color: #FFFFFF;
+    background-color: #000000;
     border-radius: 3px;
     transition: all .3s ease-in-out;
 }
@@ -540,22 +540,11 @@ textarea {
     top: 14px;
 }
 
-/*these are for when button has been pressed*/
-body.shifted {
-    left: -260px;
+.front .hamburger div {
+    background-color: #FFFFFF; /*fix for front page*/
 }
 
-body.shifted .hamburger #bar1 {
-    transform: translate(0,11px) rotate(45deg);
-}
 
-body.shifted .hamburger #bar2 {
-    transform: rotate(45deg);
-}
-
-body.shifted .hamburger #bar3 {
-    transform: translate(0,-11px) rotate(-45deg);
-}
 
 
 
@@ -1180,16 +1169,29 @@ object {
 
 /*logo and menu collide.*/
 @media screen and (max-width: 838px) {
-    /*TODO: FOR TESTING ONLY*/
-    
-
-
     /*show hamburger menu icon*/
     .hamburger {
         display: block;
     }
 
-    /*move menu navigation to the right of the screen*/
+    /*these are for when button has been pressed*/
+    body.shifted {
+        left: -260px;
+    }
+
+    body.shifted .hamburger #bar1 {
+        transform: translate(0,11px) rotate(45deg);
+    }
+
+    body.shifted .hamburger #bar2 {
+        transform: rotate(45deg);
+    }
+
+    body.shifted .hamburger #bar3 {
+        transform: translate(0,-11px) rotate(-45deg);
+    }
+
+    /*move navigation to the right of the screen*/
     .main-navigation {
         position: absolute;
         top:0;
@@ -1200,38 +1202,16 @@ object {
     .main-navigation li {
         width: 100%;
     }
-    nav a, nav a:visited {
-        color: #666062;
-        padding: 3px 9px;
-        border-radius: 6px;
-        -webkit-transition: all .1s linear;
-        transition: all .1s linear;
-    }
-
-    nav a:hover {
-        background-color: #f9b625;
-        color: #FFFFFF;
-    }
-
-    .current-menu-item > a, .current-menu-parent > a,
-    .current-menu-item > a:hover, .current-menu-parent > a:hover {
-        background-color: #3eb1c8;
-        color:#FFFFFF!important;
-    }
-
 
     /*submenus*/
-    .sub-menu {
-        background-color:#666062;
-        border-radius: 6px;
+    .main-navigation ul ul {
+        background-color: inherit;
+        position: static;
+        box-shadow: none;
+        padding-left: 20px;
     }
 
     nav .sub-menu a, nav .submenu a:visited {
-        color: #FFFFFF;
-    }
-
-    /*##### take care of front-page ######*/
-    header.front nav a, header.front nav a:visited {
         color: #FFFFFF;
     }
 

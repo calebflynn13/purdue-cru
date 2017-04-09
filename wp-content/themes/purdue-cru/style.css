@@ -353,7 +353,7 @@ html {
     }
 
     body {
-        background: #fff; /* Fallback for when there is no custom background color defined. */
+        background: rgb(98,96,98); /* Fallback for when there is no custom background color defined. */
     }
 
     blockquote:before,
@@ -504,6 +504,38 @@ textarea {
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
+/*hamburger menu*/
+.hamburger {
+    display: none;
+    width: 35px;
+    height: 27px;
+    position: relative;
+    top: 50px;
+    float: right;
+    margin-right:20px;
+}
+
+.hamburger div {
+    width:35px;
+    height: 4px;
+    position:relative;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.hamburger #bar1 {
+    top:0;
+}
+
+.hamburger #bar2 {
+    top: 7px;
+}
+
+.hamburger #bar3 {
+    top: 14px;
+}
+/*end hamburger menu*/
+
 header#masthead {
     width:100%;
     box-shadow: 1px 3px 7px grey;
@@ -1115,13 +1147,15 @@ object {
 
 }
 
+/*logo and menu collide.*/
 @media screen and (max-width: 838px) {
-    /*logo and menu collide.*/
-    /*might not be useful*/
-    body {
-        position: relative;
-        /*left: -260px;*/
+    /*show hamburger menu icon*/
+    .hamburger {
+        display: block;
     }
+
+    /*move menu items to the right of the screen*/
+    
 
     /*stack the boxes*/
     div#box-container {

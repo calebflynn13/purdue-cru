@@ -355,6 +355,8 @@ html {
     body {
         background: rgb(98,96,98); /* Fallback for when there is no custom background color defined. */
         position: relative;
+        left: 0;
+        transition: left .3s ease-in-out;
     }
 
     blockquote:before,
@@ -514,6 +516,7 @@ textarea {
     top: 50px;
     float: right;
     margin-right:20px;
+    outline: none;
 }
 
 .hamburger div {
@@ -522,6 +525,7 @@ textarea {
     position:relative;
     background-color: #FFFFFF;
     border-radius: 3px;
+    transition: all .3s ease-in-out;
 }
 
 .hamburger #bar1 {
@@ -535,6 +539,27 @@ textarea {
 .hamburger #bar3 {
     top: 14px;
 }
+
+/*these are for when button has been pressed*/
+body.shifted {
+    left: -260px;
+}
+
+body.shifted .hamburger #bar1 {
+    transform: translate(0,11px) rotate(45deg);
+}
+
+body.shifted .hamburger #bar2 {
+    transform: rotate(45deg);
+}
+
+body.shifted .hamburger #bar3 {
+    transform: translate(0,-11px) rotate(-45deg);
+}
+
+
+
+
 /*end hamburger menu*/
 
 header.site-header {
@@ -550,7 +575,7 @@ header.front.site-header {
 }
 
 #fountain-image {
-    background: url("http://www.purduecru.com/wp-content/uploads/2017/01/fountain_dark.jpg") #666062; 
+    background: url("http://www.purduecru.com/wp-content/uploads/2017/01/fountain_dark.jpg") rgb(98,96,98); 
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -1156,9 +1181,7 @@ object {
 /*logo and menu collide.*/
 @media screen and (max-width: 838px) {
     /*TODO: FOR TESTING ONLY*/
-    body {
-        left: -260px;
-    }
+    
 
 
     /*show hamburger menu icon*/

@@ -70,6 +70,7 @@
                 <div id="bar3"></div>
             </div>
         </a>
+        <script src="/wp-content/themes/purdue-cru/js/menuToggle.js"></script>
         <nav id="site-navigation" class="main-navigation" >
             <?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
         </nav><!-- #site-navigation -->

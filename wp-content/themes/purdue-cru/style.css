@@ -564,7 +564,7 @@ header.front.site-header {
 }
 
 #fountain-image {
-    background: url("http://www.purduecru.com/wp-content/uploads/2017/01/fountain_dark.jpg") rgb(98,96,98); 
+    background: url("/wp-content/themes/purdue-cru/images/fall.jpg") rgb(98,96,98); 
     background-size: cover;
     background-position: center;
     z-index: -1;

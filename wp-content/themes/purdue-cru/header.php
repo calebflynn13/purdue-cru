@@ -56,10 +56,10 @@
             <a href="http://www.purduecru.com/">
                 <?php
                     if(is_front_page()): ?>
-                        <img src="http://www.purduecru.com/wp-content/uploads/2017/01/logo_white.png" class="logo">
+                        <img src="/wp-content/themes/purdue-cru/images/logo_white.png" class="logo">
                 <?php
                     else: ?>
-                    <img src="http://www.purduecru.com/wp-content/uploads/2017/01/logo_dark.png" class="logo">
+                    <img src="/wp-content/themes/purdue-cru/images/logo_dark.png" class="logo">
                 <?php endif; ?>
             </a>
         </div><!-- .site-branding -->
